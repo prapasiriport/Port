@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head> 
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Prapasiri <span>Khunnakorn</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Prapasiri</span></h1>
+            <h3 class="text-animation">I'm a<span></span></h3>
+            <p>เป็นเว็บไซต์ที่ฉันสร้างขึ้นเพื่อทำเป็นเรซูเม่สำหรับสมัครงาน</p>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_17.06_pm/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100010783543381"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/prapasiri-khunnakorn-7ab7a4322/"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="5.jpg" alt="">
+            </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="2.jpg" alt="">
+        </div>
+        
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>เป็นคนชอบเรียนรู้สิ่งใหม่ๆ เพราะเชื่อมั่นว่าการได้ลงมือทำอะไรสักอย่างมันถือเป็นประสบการณ์ในการเรียนรู้ให้กับเราในอนาคตเสมอและเป็นคนที่ไม่เก่งแต่เชื่อมั่นในความขยันว่ามันจะทำให้คนเก่งขึ้นได้</p>
+            <a href="#home" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeine-date"><h3>2015</h3></div>
+                    <div class="timeline-content">
+                        <h3>Junior High School</h3>
+                        <p> โรงเรียนมัธยมวัดหนองแขม (เกรดเฉลี่ย 3.71)
+                        </p>
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeine-date"><h3>2018</div></h3>
+                    <div class="timeline-content">
+                        <h3>Vocational Certificate</h3>
+                        <p> วิทยาลัยเทคโนโลยีตั้งตรงจิตรพณิชยการ ประกาศนียบัตรวิชาชีพชั้นปีที่ 1-3 สาขาคอมพิวเตอร์ธุรกิจ (เกรดเฉลี่ย 3.78)
+                        </p>
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeine-date"><h3>2021</h3></div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p> มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ วิทยาเขตศาลายา คณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์
+                            ขณะนี้กำลังศึกษาอยู่ชั้นปีที่ 4
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/xvgprypg" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="phone" placeholder="Phone Number" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/_17.06_pm/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100010783543381"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.linkedin.com/in/prapasiri-khunnakorn-7ab7a4322/"><i class='bx bxl-linkedin' ></i></a>
+    </div>
+
+    <ul class="list">
+        <li>
+            <a href="#about">About Me</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    <p class="copyright">
+        © Prapasiri Khunnakorn │ All Rights Reserved
+    </p>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
