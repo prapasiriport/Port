@@ -25,3 +25,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 
 }
+document.getElementById('phone').addEventListener('input', function (e) {
+    // Replace any non-digit character with an empty string
+    e.target.value = e.target.value.replace(/\D/g, '');
+});
